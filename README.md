@@ -5,7 +5,7 @@ This repository contains a very, very short tutorial on
 complete tutorial of all features of Nipype. It shows how I would go about creating
 a simple workflow for QA, which generates a temporal SNR volume and framewise displacement 
 parameters. In the process, it highlights some useful features and practices to iterate
-workflows over multiple files (largely inspired by [fMRIPrep](https://fmriprep.org/en/stable/).
+workflows over multiple files (largely inspired by [fMRIPrep](https://fmriprep.org/en/stable/)).
 
 This tutorial was written rather quickly, and the narrative needs to be improved.
 That said, I think it accomplishes the goal of showcasing the benefits of using Nipype. 
