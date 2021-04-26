@@ -1,0 +1,8 @@
+nipype
+nilearn
+nibabel
+pycortex
+datalad
+numpy
+networkx
+nxpd
