@@ -130,3 +130,15 @@ dmypy.json
 
 # nipype
 workdir
+
+# stuff specific to this tutorial
+data/budapest-data/
+data/derivatives/
+data/derivatives2/
+data/functional.nii
+data/test_data.nii.gz
+figures/myfirstworkflow
+figures/mymainworkflow_v1
+figures/mymainworkflow_v2
+figures/mysecondworkflow
+figures/mysecondworkflow_v2
