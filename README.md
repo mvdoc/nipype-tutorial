@@ -1,6 +1,49 @@
-# nipype-tutorial
+# A minimal tutorial on Nipype by Matteo Visconti dOC
 
-A short tutorial on Nipype.
+This repository contains a very, very short tutorial on
+[Nipype](https://nipype.readthedocs.io/en/latest/). It is far from being a
+complete tutorial of all features of Nipype. It shows how I would go about creating
+a simple workflow for QA, which generates a temporal SNR volume and framewise displacement 
+parameters. In the process, it highlights some useful features and practices to iterate
+workflows over multiple files (largely inspired by [fMRIPrep](https://fmriprep.org/en/stable/).
 
-- put links to other tutorials
-- put link to how to get help (nipype github page, neurostars)
+This tutorial was written rather quickly, and the narrative needs to be improved.
+That said, I think it accomplishes the goal of showcasing the benefits of using Nipype. 
+The audience is assumed to be researchers who already know a great deal about
+neuroimaging, and who are trying to switch to a better way of writing pipelines.
+
+More exhaustive tutorials are available elsewhere. To learn more about Nipype, I
+highly recommend checking the following links:
+
+- [Nipype example's page](https://nipype.readthedocs.io/en/latest/examples.html)
+- [Michael Notter's Nipype tutorials](https://miykael.github.io/nipype_tutorial/)
+
+If you need help, do the following
+
+1. Search through [Nipype's issues](https://github.com/nipy/nipype/issues).
+2. Search on [Neurostars](https://neurostars.org/).
+3. If 1. and 2. do not answer your question, post on Neurostars.
+
+More advanced users might want to check the following packages containing tested workflows. 
+If you can use them without reinventing the wheel, that's fantastic. Otherwise they are
+great for inspiration.
+
+- [nipreps/niworkflows](https://github.com/nipreps/niworkflows) for common MRI workflows
+- [nipreps/sdcflows](https://github.com/nipreps/sdcflows) for distortion-correction workflows.
+
+
+## Installation
+
+Python packages required by this tutorial are listed under `requirements.txt`. Install them with
+
+```bash
+pip install -r requirements.txt
+```
+
+in your favorite conda/non-conda environment. Feel free to open an issue or a
+PR if I forgot some packages.
+
+You also need a working version of FSL and AFNI to run some steps of the
+example workflows. The tutorial uses [DataLad](https://datalad.org) to download
+a dataset from [OpenNeuro](https://openneuro.org). You might need to install
+[git-annex](https://git-annex.branchable.com/).
