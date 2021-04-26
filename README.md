@@ -50,6 +50,14 @@ a dataset from [OpenNeuro](https://openneuro.org). You might need to install
 
 ## Content
 
-- [01-example-interface](01-example-interface.ipynb): a quick description of what an Interface object is, one of the building blocks of Nipype workflows.
-- [02-example-simple-workflow](02-example-simple-workflow.ipynb): creating a simple quality-assurance workflow that performs motion correction, computes tSNR on the motion corrected volumes, and computes framewise displacement. In the process, it explains some core concepts of writing Nipype workflows.
-- [03-extending-our-first-workflow](03-extending-our-first-workflow.ipynb): extend the workflow so that it can be run over multiple files. It showcases the `Function` interface, some advanced features of Nipype to rename filenames, one way to create subworkflows for each input file, and how to use a `DataSink` node.
+- [01-example-interface](01-example-interface.ipynb) describes
+  what an `Interface` object is, one of the building blocks of Nipype workflows.
+- [02-example-simple-workflow](02-example-simple-workflow.ipynb) creates a
+  simple quality-assurance workflow that performs motion correction, computes
+  tSNR on the motion corrected volumes, and computes framewise displacement. In
+  the process, it explains some core concepts of writing Nipype workflows.
+- [03-extending-our-first-workflow](03-extending-our-first-workflow.ipynb)
+  extends the workflow so that it can be run over multiple files. It showcases
+  the `Function` interface, some advanced features of Nipype to rename
+  filenames, one way to create subworkflows for each input file, and how to use
+  a `DataSink` node.
